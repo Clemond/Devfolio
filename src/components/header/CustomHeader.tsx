@@ -8,19 +8,34 @@ export default function CustomHeader() {
         </div>
 
         <div className="flex flex-row  mr-4 items-end">
-          <button onClick={() => {}} className="px-4 border-r  ">
+          <button
+            onClick={() => {}}
+            className="px-4 border-r hover:rounded-lg hover:opacity-80  hover:shadow-md  active:opacity-60 transition-all duration-200 transform hover:scale-110"
+          >
             Portfolio
           </button>
-          <button onClick={() => {}} className="px-4 border-r ">
-            Resume{" "}
+          <button
+            onClick={() => {}}
+            className="px-4 border-r hover:rounded-lg hover:opacity-80  hover:shadow-md  active:opacity-60 transition-all duration-200 transform hover:scale-110"
+          >
+            Resume
           </button>
-          <button onClick={() => {}} className="px-4 border-r ">
+          <button
+            onClick={() => {}}
+            className="px-4 border-r hover:rounded-lg hover:opacity-80  hover:shadow-md  active:opacity-60 transition-all duration-200 transform hover:scale-110"
+          >
             About Me
           </button>
-          <button onClick={() => {}} className="px-4 border-r ">
+          <button
+            onClick={() => {}}
+            className="px-4 border-r hover:rounded-lg hover:opacity-80  hover:shadow-md  active:opacity-60 transition-all duration-200 transform hover:scale-110"
+          >
             Skills
           </button>
-          <button onClick={() => {}} className="pl-4 ">
+          <button
+            onClick={() => {}}
+            className="px-4  hover:rounded-lg hover:opacity-80  hover:shadow-md  active:opacity-60 transition-all duration-200 transform hover:scale-110"
+          >
             Contact
           </button>
         </div>
