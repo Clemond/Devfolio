@@ -8,7 +8,7 @@ export default function AboutMeCard() {
       transition={{ type: "spring", stiffness: 40, damping: 15 }}
       viewport={{ once: true, amount: 0.3 }}
     >
-      <div className=" flex flex-col justify-center items-center mb-5 ">
+      <div className=" flex flex-col justify-center items-center mb-5  ">
         <div className="p-5 w-[50%] bg-gray-600/50 rounded-3xl  ">
           <p className="font-bold text-xl text-center">About Me</p>
           <p className="italic text-center">
