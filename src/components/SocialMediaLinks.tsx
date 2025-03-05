@@ -10,21 +10,24 @@ export default function SocialMediaLinks() {
         component="a"
         href="https://www.linkedin.com/in/nicholas-nieminen-jönsson/"
         target="_blank"
+        className="shadow-md shadow-[#c227de]"
       >
-        <LinkedInIcon fontSize="large" sx={{ color: "black" }} />
+        <LinkedInIcon fontSize="large" sx={{ color: "white" }} />
       </IconButton>
       <IconButton
         component="a"
         href="https://github.com/yourgithubprofile"
         target="_blank"
+        className="shadow-md shadow-[#c227de]"
       >
-        <GitHubIcon fontSize="large" sx={{ color: "black" }} />
+        <GitHubIcon fontSize="large" sx={{ color: "white" }} />
       </IconButton>
       <IconButton
         component="a"
         href="mailto:Nicholas.nieminenjonsson@gmail.com"
+        className="shadow-md shadow-[#c227de]"
       >
-        <EmailIcon fontSize="large" sx={{ color: "black" }} />
+        <EmailIcon fontSize="large" sx={{ color: "white" }} />
       </IconButton>
     </Box>
   );
