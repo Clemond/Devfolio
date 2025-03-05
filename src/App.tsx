@@ -1,5 +1,5 @@
 import AboutMeCard from "./components/aboutMe/AboutMeCard";
-import CustomHeader from "./components/CustomHeader";
+import CustomHeader from "./components/header/CustomHeader";
 import ProfileIntroCard from "./components/ProfileIntroCard";
 
 function App() {
