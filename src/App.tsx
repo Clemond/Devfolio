@@ -7,6 +7,7 @@ function App() {
     <div className="flex flex-col">
       <div className="h-screen flex flex-col">
         <CustomHeader />
+
         <div className="flex flex-grow justify-center items-center">
           <ProfileIntroCard />
         </div>

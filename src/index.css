@@ -4,10 +4,9 @@
 
 html,
 body {
-  height: 100%; /*! This might cause flexbox issues later on!*/
   margin: 0;
   padding: 0;
-  background-color: #0f1021;
+  @apply bg-gradient-to-br from-[#0f1021] to-[#3e0c47];
   font-family: "Inter", sans-serif;
   @apply text-white;
   -webkit-font-smoothing: antialiased;
