@@ -10,22 +10,22 @@ export default function SocialMediaLinks() {
         component="a"
         href="https://www.linkedin.com/in/nicholas-nieminen-jönsson/"
         target="_blank"
-        className="shadow-md shadow-[#c227de]"
+        className="shadow-md shadow-[#c227de] opacity-100 hover:opacity-80 active:opacity-60 transition-opacity duration-200"
       >
         <LinkedInIcon fontSize="large" sx={{ color: "white" }} />
       </IconButton>
       <IconButton
         component="a"
-        href="https://github.com/yourgithubprofile"
+        href="https://github.com/Clemond"
         target="_blank"
-        className="shadow-md shadow-[#c227de]"
+        className="shadow-md shadow-[#c227de] opacity-100 hover:opacity-80 active:opacity-60 transition-opacity duration-200"
       >
         <GitHubIcon fontSize="large" sx={{ color: "white" }} />
       </IconButton>
       <IconButton
         component="a"
         href="mailto:Nicholas.nieminenjonsson@gmail.com"
-        className="shadow-md shadow-[#c227de]"
+        className="shadow-md shadow-[#c227de] opacity-100 hover:opacity-80 active:opacity-60 transition-opacity duration-200"
       >
         <EmailIcon fontSize="large" sx={{ color: "white" }} />
       </IconButton>

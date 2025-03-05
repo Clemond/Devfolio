@@ -3,11 +3,12 @@ import SocialMediaLinks from "./SocialMediaLinks";
 
 export default function ProfileIntroCard() {
   return (
-    <div className="w-full justify-center flex pt-10">
+    <div className="w-full justify-center flex ">
       <div className=" flex flex-row w-[70%] ">
         <img
           className="rounded-[192px] h-96 w-96 shadow-2xl shadow-[#c227de]"
           src={ProfilePic}
+          alt="Profile Pic"
         />
 
         <div className=" text-center pl-10 flex flex-col justify-center gap-3 ">
