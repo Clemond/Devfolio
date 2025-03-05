@@ -1,6 +1,6 @@
-import AboutMeCard from "./components/aboutMe/AboutMeCard";
+import AboutMeCard from "./components/about-me/AboutMeCard";
 import CustomHeader from "./components/header/CustomHeader";
-import ProfileIntroCard from "./components/ProfileIntroCard";
+import ProfileIntroCard from "./components/intro-card/ProfileIntroCard";
 
 function App() {
   return (

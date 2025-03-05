@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import ProfilePic from "../assets/ice-cream-pic2.jpg";
+import ProfilePic from "../../assets/ice-cream-pic2.jpg";
 import SocialMediaLinks from "./SocialMediaLinks";
 
 export default function ProfileIntroCard() {
@@ -8,7 +8,7 @@ export default function ProfileIntroCard() {
       initial={{ x: 500, opacity: 0 }}
       whileInView={{ x: 0, opacity: 1 }}
       transition={{ type: "spring", stiffness: 40, damping: 15 }}
-      viewport={{ once: true, amount: 0.3 }}
+      viewport={{ once: true, amount: 0 }}
       className="w-full flex flex-col justify-center items-center flex-1"
     >
       <div className="flex flex-row w-[70%] justify-center">
