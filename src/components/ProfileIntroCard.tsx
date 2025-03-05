@@ -1,9 +1,16 @@
+import { motion } from "framer-motion";
 import ProfilePic from "../assets/ice-cream-pic2.jpg";
 import SocialMediaLinks from "./SocialMediaLinks";
 
 export default function ProfileIntroCard() {
   return (
-    <div className="w-full flex flex-col justify-center items-center flex-1">
+    <motion.div
+      initial={{ x: 500, opacity: 0 }}
+      whileInView={{ x: 0, opacity: 1 }}
+      transition={{ type: "spring", stiffness: 40, damping: 15 }}
+      viewport={{ once: true, amount: 0.3 }}
+      className="w-full flex flex-col justify-center items-center flex-1"
+    >
       <div className="flex flex-row w-[70%] justify-center">
         <img
           className="rounded-[192px] h-96 w-96 shadow-2xl shadow-[#c227de]"
@@ -35,6 +42,6 @@ export default function ProfileIntroCard() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

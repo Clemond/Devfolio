@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function AboutMeCard() {
   return (
     <motion.div
-      initial={{ x: 100, opacity: 0 }}
+      initial={{ x: -500, opacity: 0 }}
       whileInView={{ x: 0, opacity: 1 }}
       transition={{ type: "spring", stiffness: 40, damping: 15 }}
       viewport={{ once: true, amount: 0.3 }}
