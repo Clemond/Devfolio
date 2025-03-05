@@ -5,13 +5,12 @@ import ProfileIntroCard from "./components/ProfileIntroCard";
 function App() {
   return (
     <div className="flex flex-col">
-      <div className="h-screen flex flex-col ">
+      <div className="h-screen flex flex-col">
         <CustomHeader />
         <div className="flex flex-grow justify-center items-center">
           <ProfileIntroCard />
         </div>
       </div>
-
       <AboutMeCard />
     </div>
   );
