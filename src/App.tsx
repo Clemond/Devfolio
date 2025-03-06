@@ -2,6 +2,7 @@ import AboutMeCard from "./components/about-me/AboutMeCard";
 import FactsSection from "./components/about-me/FactsSection";
 import CustomHeader from "./components/header/CustomHeader";
 import ProfileIntroCard from "./components/intro-card/ProfileIntroCard";
+import SkillSection from "./components/skills/SkillSection";
 
 function App() {
   return (
@@ -13,8 +14,14 @@ function App() {
           <ProfileIntroCard />
         </div>
       </div>
-      <AboutMeCard />
-      <FactsSection />
+      <div className="h-screen justify-evenly flex flex-col">
+        <AboutMeCard />
+        <FactsSection />
+      </div>
+
+      <div className="h-screen">
+        <SkillSection />
+      </div>
     </div>
   );
 }
